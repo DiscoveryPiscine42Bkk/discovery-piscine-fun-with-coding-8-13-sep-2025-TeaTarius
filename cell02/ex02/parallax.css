@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.first-image, .second-image {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-image {
+  background-image: url("https://gaming-cdn.com/images/news/articles/9413/cover/the-console-versions-of-cities-skylines-2-have-been-delayed-due-to-hardware-limitations-cover67458c9072048.jpg");
+}
+
+.second-image {
+  background-image: url("https://kpoppie.com/wp-content/uploads/2024/03/illit-700.jpg");
+}
+
+h3 {
+  color: #e8719e;
+  font-size: 5rem;
+}
+
+.content {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #111;
+  font-size: 1.5rem;
+}
